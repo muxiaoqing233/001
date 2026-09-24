@@ -1,8 +1,8 @@
-# 001 · Python Learning Lab 🚀
+# Yggdrasil Lab 🌳
 
-> 一个持续迭代的 Python / Git / AI 学习仓库。目标不是“收藏代码”，而是把每个知识点做成能运行的小项目。
+> 以北欧神话“世界树 Yggdrasil”为名的个人编程学习实验室。这里把 Python、Git、自动化、AI 与 Agent 当作不断生长的“枝干”，用一个个可运行的小项目记录成长。
 
-## ✨ 目前包含
+## 🌿 当前枝干
 
 | 项目 | 内容 | 主要知识点 |
 |---|---|---|
@@ -12,22 +12,22 @@
 
 完整项目索引见 [projects/README.md](projects/README.md)。
 
-## 🧭 学习路线
-
-当前路线：
+## 🧭 世界树学习路线
 
 ```text
-Python 基础
-   ↓
-Git / GitHub
-   ↓
-命令行小项目
-   ↓
-文件处理 / API
-   ↓
-自动化脚本
-   ↓
-Ollama / 本地 AI / Agent
+                AI / Agent
+                   ▲
+                   │
+            自动化 / API / 工具
+                   ▲
+                   │
+              Git / GitHub
+                   ▲
+                   │
+               Python 基础
+                   ▲
+                   │
+              Yggdrasil Lab
 ```
 
 详细规划见 [LEARNING_PATH.md](LEARNING_PATH.md)。
@@ -36,10 +36,14 @@ Ollama / 本地 AI / Agent
 
 ### 1. 克隆仓库
 
+当前仓库名仍是 `001`：
+
 ```bash
 git clone https://github.com/muxiaoqing233/001.git
 cd 001
 ```
+
+> 如果之后把 GitHub 仓库正式重命名为 `yggdrasil-lab`，这里再同步改为新地址。
 
 ### 2. 检查 Python
 
@@ -66,7 +70,7 @@ python projects/02_number_guess/main.py
 ## 📁 目录结构
 
 ```text
-001/
+Yggdrasil Lab/
 ├─ .github/
 │  └─ workflows/
 │     └─ python-check.yml
@@ -83,17 +87,16 @@ python projects/02_number_guess/main.py
 └─ README.md
 ```
 
-## ✅ 仓库原则
+## 🌱 仓库原则
 
 - 每个项目都应该能够独立运行。
 - 一个项目尽量只聚焦几个新知识点。
 - 重要修改使用清晰的 Git commit。
 - API Key、密码、Token 等敏感信息绝不提交。
 - 代码先做到“能读、能跑、能解释”，再追求复杂度。
+- 新知识点不是“收藏”，而是长成世界树上的新枝条。
 
 ## 🛠️ Git 提交建议
-
-推荐使用简单、统一的提交前缀：
 
 ```text
 feat:     新功能
@@ -107,13 +110,13 @@ chore:    仓库维护
 
 ```text
 feat: add file renamer project
-docs: update learning roadmap
+docs: update yggdrasil roadmap
 fix: handle invalid number input
 ```
 
 更多常用命令见 [Git 速查表](docs/GIT_CHEATSHEET.md)。
 
-## 🎯 下一阶段
+## 🌲 下一批枝条
 
 计划继续加入：
 
@@ -125,6 +128,8 @@ fix: handle invalid number input
 - Ollama 本地模型调用
 - 简单 AI Agent
 
-## 🤝 关于这个仓库
+## 🪵 关于 Yggdrasil Lab
 
-这是个人学习实验室，因此代码会随着学习不断重构。与其追求一次写出“完美代码”，更重要的是留下可追踪、可复现的成长记录。
+Yggdrasil 在北欧神话中连接不同世界。这个仓库也采用类似思路：让不同学习方向互相连接，而不是散落成一堆彼此无关的练习。
+
+目标不是一次写出“完美代码”，而是让整棵树持续生长。
